@@ -61,13 +61,14 @@ p {
   letter-spacing: 1px;
   font-weight: 400;
 }
-
+.download-btn:hover {
+  cursor: pointer;
+}
 #ios {
   margin-top: 100px;
   background-color: var(--btn-cyan);
   box-shadow: 0px 3px #24a08d;
 }
-
 #mac {
   background-color: var(--btn-purple);
   box-shadow: 0px 3px #5665dc;
@@ -150,6 +151,10 @@ footer {
   .footer-icon {
     margin: 20px 0;
     padding: 0 15px;
+  }
+  a:hover {
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
   }
 }
 @media (min-width: 1080px) {

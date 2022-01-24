@@ -75,6 +75,10 @@ p {
   font-weight: 400;
 }
 
+.download-btn:hover {
+  cursor: pointer;
+}
+
 #ios {
   margin-top: 100px;
   background-color: var(--btn-cyan);
@@ -177,6 +181,11 @@ footer .footer-info {
 footer .footer-icon {
   margin: 20px 0;
   padding: 0 15px;
+}
+
+footer a:hover {
+  cursor: pointer;
+  color: #26baa4;
 }
 
 @media (min-width: 1080px) {
